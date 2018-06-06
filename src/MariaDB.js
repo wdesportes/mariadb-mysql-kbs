@@ -1,20 +1,6 @@
 const jsdom = require('jsdom').JSDOM;
-const fs = require('fs');
 const path = require('path');
-
-
-
-function writeJSON(filename, data) {
-
-    fs.writeFile(filename, JSON.stringify(data, null, 2), function(err) {
-        if(err) {
-            return console.log(err);
-        }
-    });
-}
-
-
-//'http://localhost.localdomain/server-system-variables.html'
+const writeJSON = require(__dirname+'/common').writeJSON;
 
 function parsePage(url, cbSuccess) {
     var anchors = [];
@@ -60,10 +46,9 @@ function parsePage(url, cbSuccess) {
                                     .toLowerCase().trim();
                                     break;
                                 case 'default value:':
-                                    doc.default = [];
                                     elementDescr.parentNode.childNodes.forEach(codeChild => {
                                         if(codeChild.nodeName.toLowerCase().trim() === "code") {
-                                            doc.default.push(codeChild.textContent);
+                                            doc.default = codeChild.textContent;
                                         }
                                     });
                                     break;
