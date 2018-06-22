@@ -1,0 +1,13 @@
+{
+    "name": "williamdes/mariadb-mysql-kbs",
+    "description": "An index of the MariaDB and MySQL Knowledge bases",
+    "type": "library",
+    "license": "MPL-2.0",
+    "authors": [
+        {
+            "name": "William Desportes",
+            "email": "williamdes@wdes.fr"
+        }
+    ],
+    "require": {}
+}
