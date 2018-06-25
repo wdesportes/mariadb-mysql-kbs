@@ -27,6 +27,7 @@ function parsePage(url, cbSuccess) {
                                     doc.scope = elementDescr.nextSibling.textContent
                                     .toLowerCase()
                                     .split(",").map(item => item.trim());
+                                    doc.scope = doc.scope.filter(function(e){ return e === 0 || e });
                                     break;
                                 case 'type:':
                                     doc.type = elementDescr.nextSibling.textContent
