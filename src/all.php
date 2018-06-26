@@ -6,7 +6,7 @@ $variables = array();
 
 $nbr = 0;
 foreach ($files as $file) {
-    $data = json_decode((string)file_get_contents($file));
+    $data = json_decode((string) file_get_contents($file));
     if (isset($data->data) === false) {
         continue;
     } else {
