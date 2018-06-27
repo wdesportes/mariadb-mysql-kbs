@@ -28962,6 +28962,7 @@
             ]
         }
     },
+    "version": 1,
     "urls": [
         "https://mariadb.com/kb/en/library/documentation/aria-server-status-variables/",
         "https://mariadb.com/kb/en/library/documentation/columns-storage-engines-and-plugins/storage-engines/aria/aria-system-variables/",
