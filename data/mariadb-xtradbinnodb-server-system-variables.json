@@ -157,7 +157,8 @@
       },
       "scope": [
         "global"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "--innodb-api-bk-commit-interval=#",
@@ -238,7 +239,7 @@
       "scope": [
         "global"
       ],
-      "type": "bytes"
+      "type": "byte"
     },
     {
       "cli": "--innodb-autoinc-lock-mode=#",
@@ -506,7 +507,8 @@
       },
       "scope": [
         "global"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "--innodb-change-buffer-max-size=#",
@@ -910,7 +912,8 @@
       "name": "innodb_dict_size_limit",
       "scope": [
         "global"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "--innodb-disable-sort-file-cache=#",
@@ -1450,7 +1453,8 @@
       },
       "scope": [
         "global"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "--innodb-ft-server-stopword-table=db_name/table_name",
@@ -1544,7 +1548,8 @@
       },
       "scope": [
         "global"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "--innodb-idle-flush-pct=#",
@@ -1752,7 +1757,8 @@
       "name": "innodb_log_block_size",
       "scope": [
         "global"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "--innodb-log-buffer-size=#",
@@ -1767,7 +1773,8 @@
       },
       "scope": [
         "global"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "innodb-log-checksum-algorithm=value",
@@ -1814,7 +1821,8 @@
       },
       "scope": [
         "global"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "--innodb-log-files-in-group=#",
@@ -1880,7 +1888,8 @@
       },
       "scope": [
         "global"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "innodb-max-changed-pages=#",
@@ -1981,7 +1990,8 @@
       },
       "scope": [
         "global"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "id": "innodb_mirrored_log_groups",
@@ -2151,6 +2161,7 @@
       "scope": [
         "global"
       ],
+      "type": "byte",
       "validValues": [
         "4k",
         "4096",
@@ -2407,7 +2418,8 @@
       },
       "scope": [
         "global"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "innodb-sched-priority-cleaner=#",

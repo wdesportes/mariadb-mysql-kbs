@@ -7,7 +7,7 @@
       "scope": [
         "global"
       ],
-      "type": "bytes"
+      "type": "byte"
     },
     {
       "dataType": "numeric",

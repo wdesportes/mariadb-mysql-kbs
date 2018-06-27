@@ -37,7 +37,7 @@
       "scope": [
         "global"
       ],
-      "type": "bytes"
+      "type": "byte"
     },
     {
       "cli": "aria-encrypt-tables={0|1}",

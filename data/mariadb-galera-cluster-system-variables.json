@@ -227,7 +227,8 @@
       },
       "scope": [
         "global"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "--wsrep-mysql-replication-bundle=#",

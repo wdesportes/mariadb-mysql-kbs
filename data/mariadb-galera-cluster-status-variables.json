@@ -135,7 +135,8 @@
     },
     {
       "id": "wsrep_received_bytes",
-      "name": "wsrep_received_bytes"
+      "name": "wsrep_received_bytes",
+      "type": "byte"
     },
     {
       "id": "wsrep_replicated",
@@ -144,7 +145,8 @@
     },
     {
       "id": "wsrep_replicated_bytes",
-      "name": "wsrep_replicated_bytes"
+      "name": "wsrep_replicated_bytes",
+      "type": "byte"
     },
     {
       "id": "wsrep_thread_count",

@@ -2521,7 +2521,8 @@
       "scope": [
         "global",
         "session"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "dataType": "numeric",

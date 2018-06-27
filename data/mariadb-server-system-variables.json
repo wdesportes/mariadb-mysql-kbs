@@ -94,7 +94,8 @@
       "scope": [
         "global",
         "session"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "dataType": "string",
@@ -708,7 +709,8 @@
       "scope": [
         "global",
         "session"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "dynamic": false,
@@ -813,7 +815,7 @@
         "global",
         "session"
       ],
-      "type": "bytes"
+      "type": "byte"
     },
     {
       "cli": "--histogram-type=value",
@@ -980,7 +982,8 @@
       "scope": [
         "global",
         "session"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "--join-buffer-space-limit=#",
@@ -996,7 +999,8 @@
       "scope": [
         "global",
         "session"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "--join-cache-level=#",
@@ -1314,7 +1318,8 @@
       },
       "scope": [
         "global"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "-w [level] or --log-warnings[=level]",
@@ -1396,7 +1401,8 @@
       },
       "scope": [
         "global"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "--max-connect-errors=#",
@@ -1485,7 +1491,8 @@
       "scope": [
         "global",
         "session"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "id": "max_insert_delayed_threads",
@@ -1618,7 +1625,8 @@
       "scope": [
         "global",
         "session"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "--max-sp-recursion-depth[=#]",
@@ -1792,7 +1800,8 @@
       "scope": [
         "global",
         "session"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "--net-read-timeout=#",
@@ -2050,7 +2059,8 @@
       "scope": [
         "global",
         "session"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "dataType": "boolean",
@@ -2164,7 +2174,8 @@
       "scope": [
         "global",
         "session"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "--query-cache-limit=#",
@@ -2179,7 +2190,8 @@
       },
       "scope": [
         "global"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "--query-cache-min-res-unit=#",
@@ -2194,7 +2206,8 @@
       },
       "scope": [
         "global"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "--query-cache-size=#",
@@ -2206,6 +2219,7 @@
       "scope": [
         "global"
       ],
+      "type": "byte",
       "validValues": [
         "0"
       ]
@@ -2267,7 +2281,8 @@
       "scope": [
         "global",
         "session"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "id": "rand_seed1",
@@ -2287,7 +2302,8 @@
       "scope": [
         "global",
         "session"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "--read-buffer-size=#",
@@ -2303,7 +2319,8 @@
       "scope": [
         "global",
         "session"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "--read-only",
@@ -2330,7 +2347,8 @@
       "scope": [
         "global",
         "session"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "--rowid-merge-buff-size=#",
@@ -2346,7 +2364,8 @@
       "scope": [
         "global",
         "session"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "id": "rpl_recovery_rank",

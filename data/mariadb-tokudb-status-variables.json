@@ -214,35 +214,43 @@
     },
     {
       "id": "tokudb_cachetable_size_cachepressure",
-      "name": "Tokudb_cachetable_size_cachepressure"
+      "name": "Tokudb_cachetable_size_cachepressure",
+      "type": "byte"
     },
     {
       "id": "tokudb_cachetable_size_cloned",
-      "name": "Tokudb_cachetable_size_cloned"
+      "name": "Tokudb_cachetable_size_cloned",
+      "type": "byte"
     },
     {
       "id": "tokudb_cachetable_size_current",
-      "name": "Tokudb_cachetable_size_current"
+      "name": "Tokudb_cachetable_size_current",
+      "type": "byte"
     },
     {
       "id": "tokudb_cachetable_size_leaf",
-      "name": "Tokudb_cachetable_size_leaf"
+      "name": "Tokudb_cachetable_size_leaf",
+      "type": "byte"
     },
     {
       "id": "tokudb_cachetable_size_limit",
-      "name": "Tokudb_cachetable_size_limit"
+      "name": "Tokudb_cachetable_size_limit",
+      "type": "byte"
     },
     {
       "id": "tokudb_cachetable_size_nonleaf",
-      "name": "Tokudb_cachetable_size_nonleaf"
+      "name": "Tokudb_cachetable_size_nonleaf",
+      "type": "byte"
     },
     {
       "id": "tokudb_cachetable_size_rollback",
-      "name": "Tokudb_cachetable_size_rollback"
+      "name": "Tokudb_cachetable_size_rollback",
+      "type": "byte"
     },
     {
       "id": "tokudb_cachetable_size_writing",
-      "name": "Tokudb_cachetable_size_writing"
+      "name": "Tokudb_cachetable_size_writing",
+      "type": "byte"
     },
     {
       "id": "tokudb_cachetable_wait_pressure_count",
@@ -424,7 +432,8 @@
     },
     {
       "id": "tokudb_leaf_nodes_flushed_checkpoint_bytes",
-      "name": "Tokudb_leaf_nodes_flushed_checkpoint_bytes"
+      "name": "Tokudb_leaf_nodes_flushed_checkpoint_bytes",
+      "type": "byte"
     },
     {
       "id": "tokudb_leaf_nodes_flushed_checkpoint_seconds",
@@ -442,7 +451,8 @@
     },
     {
       "id": "tokudb_leaf_nodes_flushed_not_checkpoint_bytes",
-      "name": "Tokudb_leaf_nodes_flushed_not_checkpoint_bytes"
+      "name": "Tokudb_leaf_nodes_flushed_not_checkpoint_bytes",
+      "type": "byte"
     },
     {
       "id": "tokudb_leaf_nodes_flushed_not_checkpoint_seconds",
@@ -485,7 +495,8 @@
     },
     {
       "id": "tokudb_locktree_latest_post_escalation_memory_size",
-      "name": "Tokudb_locktree_latest_post_escalation_memory_size"
+      "name": "Tokudb_locktree_latest_post_escalation_memory_size",
+      "type": "byte"
     },
     {
       "id": "tokudb_locktree_long_wait_count",
@@ -509,11 +520,13 @@
     },
     {
       "id": "tokudb_locktree_memory_size",
-      "name": "Tokudb_locktree_memory_size"
+      "name": "Tokudb_locktree_memory_size",
+      "type": "byte"
     },
     {
       "id": "tokudb_locktree_memory_size_limit",
-      "name": "Tokudb_locktree_memory_size_limit"
+      "name": "Tokudb_locktree_memory_size_limit",
+      "type": "byte"
     },
     {
       "id": "tokudb_locktree_open_current",
@@ -667,7 +680,8 @@
     },
     {
       "id": "tokudb_nonleaf_nodes_flushed_to_disk_checkpoint_bytes",
-      "name": "Tokudb_nonleaf_nodes_flushed_to_disk_checkpoint_bytes"
+      "name": "Tokudb_nonleaf_nodes_flushed_to_disk_checkpoint_bytes",
+      "type": "byte"
     },
     {
       "id": "tokudb_nonleaf_nodes_flushed_to_disk_checkpoint_seconds",
@@ -685,7 +699,8 @@
     },
     {
       "id": "tokudb_nonleaf_nodes_flushed_to_disk_not_checkpoint_bytes",
-      "name": "Tokudb_nonleaf_nodes_flushed_to_disk_not_checkpoint_bytes"
+      "name": "Tokudb_nonleaf_nodes_flushed_to_disk_not_checkpoint_bytes",
+      "type": "byte"
     },
     {
       "id": "tokudb_nonleaf_nodes_flushed_to_disk_not_checkpoint_seconds",
@@ -713,7 +728,7 @@
     {
       "id": "tokudb_pivots_fetched_for_query_bytes",
       "name": "Tokudb_pivots_fetched_for_query_bytes",
-      "type": "bytes"
+      "type": "byte"
     },
     {
       "id": "tokudb_pivots_fetched_for_query_seconds",
@@ -728,7 +743,7 @@
     {
       "id": "tokudb_pivots_fetched_for_prefetch_bytes",
       "name": "Tokudb_pivots_fetched_for_prefetch_bytes",
-      "type": "bytes"
+      "type": "byte"
     },
     {
       "id": "tokudb_pivots_fetched_for_prefetch_seconds",
@@ -743,7 +758,7 @@
     {
       "id": "tokudb_pivots_fetched_for_write_bytes",
       "name": "Tokudb_pivots_fetched_for_write_bytes",
-      "type": "bytes"
+      "type": "byte"
     },
     {
       "id": "tokudb_pivots_fetched_for_write_seconds",

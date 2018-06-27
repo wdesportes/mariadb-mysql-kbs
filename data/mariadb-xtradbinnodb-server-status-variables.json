@@ -55,7 +55,7 @@
       "scope": [
         "global"
       ],
-      "type": "bytes"
+      "type": "byte"
     },
     {
       "dataType": "numeric",
@@ -970,14 +970,14 @@
       "scope": [
         "global"
       ],
-      "type": "bytes"
+      "type": "byte"
     },
     {
       "dataType": "",
       "id": "innodb_page_compression_saved",
       "name": "Innodb_page_compression_saved",
       "scope": [],
-      "type": "bytes"
+      "type": "byte"
     },
     {
       "dataType": "numeric",

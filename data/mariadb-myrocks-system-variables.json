@@ -1689,7 +1689,8 @@
       "scope": [
         "global",
         "session"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "--rocksdb-write-disable-wal={0|1}",

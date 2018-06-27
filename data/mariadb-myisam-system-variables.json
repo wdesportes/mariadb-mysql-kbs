@@ -116,7 +116,8 @@
       },
       "scope": [
         "global"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "id": "myisam_max_extra_sort_file_size",
@@ -130,7 +131,8 @@
       "name": "myisam_max_sort_file_size",
       "scope": [
         "global"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "--myisam-mmap-size=#",
@@ -141,7 +143,8 @@
       "scope": [
         "global",
         "session"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "--myisam-recover-options[=name]",
@@ -187,7 +190,8 @@
       "scope": [
         "global",
         "session"
-      ]
+      ],
+      "type": "byte"
     },
     {
       "cli": "--myisam-stats-method=name",
