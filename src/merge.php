@@ -350,37 +350,37 @@ foreach ($fileOut->vars as $id => $doc) {
     $md .= "|name|value|".PHP_EOL;
     $md .= "|----|-----|".PHP_EOL;
     if (isset($doc->name)) {
-        $md .= "|Name|$doc->name|".PHP_EOL;
+        $md .= "|Name|`$doc->name`|".PHP_EOL;
     }
     if (isset($doc->cli)) {
-        $md .= "|Command line|$doc->cli|".PHP_EOL;
+        $md .= "|Command line|`$doc->cli`|".PHP_EOL;
     }
     if (isset($doc->type)) {
-        $md .= "|Type of variable|$doc->type|".PHP_EOL;
+        $md .= "|Type of variable|`$doc->type`|".PHP_EOL;
     }
     if (isset($doc->scope)) {
-        $md .= "|Scope|".implode(", ", $doc->scope)."|".PHP_EOL;
+        $md .= "|Scope|`".implode("`, `", $doc->scope)."`|".PHP_EOL;
     }
     if (isset($doc->default)) {
-        $md .= "|Default value|$doc->default|".PHP_EOL;
+        $md .= "|Default value|`$doc->default`|".PHP_EOL;
     }
     if (isset($doc->dynamic)) {
-        $md .= "|Dynamic|".( ($doc->dynamic) ? 'true' : 'false')."|".PHP_EOL;
+        $md .= "|Dynamic|`".( ($doc->dynamic) ? 'true' : 'false')."`|".PHP_EOL;
     }
-    if (isset($doc->validValues)) {
-        $md .= "|Valid value(s)|".implode(", ", $doc->validValues)."|".PHP_EOL;
+    if (empty($doc->validValues) === false) {
+        $md .= "|Valid value(s)|`".implode("`, `", $doc->validValues)."`|".PHP_EOL;
     }
     if (isset($doc->range)) {
         $r = '';
         if (isset($doc->range->from)) {
-            $r .= "from: ".$doc->range->from;
+            $r .= "from: `".$doc->range->from."`";
         }
 
         if (isset($doc->range->to)) {
             if (isset($doc->range->from)) {
                 $r .= " ";
             }
-            $r .= "to: ".$doc->range->to;
+            $r .= "to: `".$doc->range->to."`";
         }
         $md .= "|Range|$r|".PHP_EOL;
     }
