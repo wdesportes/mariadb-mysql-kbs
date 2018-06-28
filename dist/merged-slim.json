@@ -2186,7 +2186,7 @@
             ]
         },
         "mroonga_lock_timeout": {
-            "cli": "<<code>>--mroonga-lock-timeout=#</code>>",
+            "cli": "--mroonga-lock-timeout=#",
             "default": "900000",
             "dynamic": true,
             "name": "mroonga_lock_timeout",
@@ -11060,7 +11060,7 @@
             ]
         },
         "pam_use_cleartext_plugin": {
-            "cli": "<<code>>--pam-use-cleartext-plugin</code>>",
+            "cli": "--pam-use-cleartext-plugin",
             "default": "OFF",
             "dynamic": false,
             "name": "pam_use_cleartext_plugin",
